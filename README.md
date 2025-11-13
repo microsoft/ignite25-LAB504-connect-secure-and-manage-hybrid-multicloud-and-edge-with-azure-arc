@@ -11,22 +11,23 @@
 
 ### Session Description
 
-Hybrid and multicloud environments introduce complexity in connectivity, governance, and security. This hands-on lab demonstrates how Azure Arc simplifies management across diverse infrastructures. You’ll learn how to deploy and configure Arc Gateway for secure connectivity, onboard servers and Kubernetes clusters, enforce compliance using Azure Policy, and strengthen your security posture with Microsoft Defender for Cloud. By the end of the session, you’ll have practical experience managing resources consistently—whether they run on-premises, in other clouds, or at the edge.
+Hybrid and multicloud environments introduce complexity in connectivity, governance, and security. This hands-on lab shows how Azure Arc simplifies management across diverse infrastructures. You’ll gain practical experience onboarding resources, enabling monitoring, enforcing compliance, and strengthening security—whether workloads run on-premises, in other clouds, or at the edge.
 
 ### 🧠 Learning Outcomes
 
 By attending this session, learners will:
--Learn how Azure Arc extends Azure management capabilities to hybrid, multicloud, and edge environments
--Understand the role of Arc Gateway in enabling secure connectivity for Arc-enabled resources
--Get familiar with governance and compliance tools using Machine Configuration 
--Examine Microsoft Defender for Cloud capabilities to strengthen security posture and monitor compliance
+1. Onboard Windows virtual machines to Azure Arc and verify connectivity
+2. Configure monitoring for Arc-enabled servers using Azure Monitor Agent and VM Insights
+3. Apply governance and compliance controls with Machine Configuration policies
+4. Strengthen security posture by leveraging Microsoft Defender for Cloud recommendations
+5. Enable auto-upgrade for the Azure Arc agent to maintain operational consistency
 
 ### 💻 Technologies Used
 
-1. Azure Arc
-2. Azure Arc gateway
-3. Azure Policy Machine Configuration
-4. Microsoft Defender
+1. [Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/overview)
+2. [Azure Monitor Agent](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-overview)
+3. [Azure Policy Machine Configuration](https://learn.microsoft.com/en-us/azure/governance/machine-configuration/overview)
+4. [Microsoft Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-machines)
 
 ### 🌟 Microsoft Learn MCP Server
 
